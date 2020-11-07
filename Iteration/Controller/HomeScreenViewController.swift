@@ -8,8 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeScreenViewController: UIViewController {
 
+    @IBOutlet var welcomeLabel: UILabel!
+    @IBOutlet var homeScreenImage: UIImageView!
+    @IBOutlet var homeScreenQuote: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
